@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    Font-Family: 'Cabin', Sans-Serif;
+  }
+  
+  body {
+    background-image: url('images/sozoImage4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-position: bottom right;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    color: black;
+  }
+  
+  #notLoggedIn {
+    text-align: center; 
+    width: 80%;
+  }
+  
+  #loginButton {
+    border: solid 5px black;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    font-size: 80px;
+    background-color: white;
+  }
+  #loginButton:hover {
+    border-color: #007800;
+    color: #005800;
+  }
+  
+  #loggedIn {
+    text-align: center;
+    margin: 10px auto;
+    width: 80%;
+  }
+  
+  header > h3 {
+    color: #777;
+    margin: 5px auto;
+    Font-Family: 'Roboto Condensed', Sans-Serif; 
+  }
+  
+  form {
+    margin: 30px auto;
+    color: black;
+  }
+  
+  input {
+    text-align: center;
+  }
+  
+  #songSearch, #artistSearch, #searchButton {
+  border: solid 2px black;
+  border-radius: 30px;
+  padding: 10px 30px;
+  }
+  
+  #songSearch, #artistSearch {
+    margin: 5px auto;
+  }
+  
+  #searchButton {
+    margin: 5px auto;
+    background-color: white;
+  }
+  
+  #searchButton:hover {
+    border-color: #007800;
+    color: #005800;
+  }
+  
+  #results {
+    text-align: center;
+    margin-top: 170px;
+    width: 80%;
+    color: #777;
+    Font-Family: 'Roboto Condensed', Sans-Serif; 
+  }
+  
+  #results > p {
+    margin: 10px auto;
+    font-size: 18px;
+  }
+  
+  @media screen and (min-width: 700px) {
+    header {
+      font-size: 35px;
+    }
+    input {
+      font-size: 20px;
+    }
+  
+    #results {
+      margin-top: 190px;
+      font-size: 26px;
+    }
+    #results > p {
+      font-size: 22px;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    body {
+      background-position: center right;
+    }
+    #loginButton {
+      font-size: 120px;
+      border-radius: 80px;
+      padding: 10px 40px;
+    }
+    header {
+      font-size: 45px;
+    }
+    input {
+      font-size: 30px;
+    }
+  
+    #results {
+      margin-top: 220px;
+      font-size: 36px;
+    }
+    #results > p {
+      font-size: 30px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    header {
+      font-size: 45px;
+    }
+    input {
+      font-size: 30px;
+    }
+    #results {
+      margin-bottom: 200px;
+      }
+    #results > p {
+       margin-bottom: 200px;
+    }
+  }
+  
+  
+  
+  
+  
+  

@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
   </head>
   
   <body>
     
     <main id="container">
       
-      <div id="notLoggedIn"><button id="loginButton">Continue</button>
+      <div id="notLoggedIn"><button id="loginButton">SOZO</button>
       </div>
 
       <div id="loggedIn">
+
+        <header>
+          <h1>SOZO</h1>
+          <h3>Audio Analysis for your Favorite Tracks</h3>
+        </header>
         
         <form>
-          <label>Song</label>
-          <input type="text" id="songSearch"/>
+          <input type="text" id="songSearch" placeholder="Song"/>
           <br>
-          <label>Artist</label>
-          <input type="text" id="artistSearch"/>
+          <input type="text" id="artistSearch" placeholder="Artist"/>
           <br>
           <input type="submit" value="Search" id="searchButton"/>
         </form>

@@ -102,7 +102,7 @@ function showSongResults(responseJson) {
  
  $('#results').html('');
   $('#results').append(
-    `<h1>${artist} - ${song}</h1>`)
+    `<h2>${song} by ${artist}</h2>`)
 
   fetchAudioFeatures(id);
 } 
@@ -110,43 +110,44 @@ function showSongResults(responseJson) {
 function showAudioFeatures(responseJson) {
   let mode = responseJson.mode;
   if (mode === 1) {
-    mode = 'Major' 
+    mode = 'Major';
   } else {
-    mode = 'Minor'
+    mode = 'Minor';
   }
 
   let key = responseJson.key;
   if (key = 0) {
-    key = 'C'
+    key = 'C';
   } else if (key = 1) {
-    key = 'C#'
+    key = 'C#';
   } else if (key = 2) {
-    key = 'D'
+    key = 'D';
   } else if (key = 3) {
-    key = 'D#'
+    key = 'D#';
   } else if (key = 4) {
-    key = 'E'
+    key = 'E';
   } else if (key = 5) {
-    key = 'F'
+    key = 'F';
   } else if (key = 6) {
-    key = 'F#'
+    key = 'F#';
   } else if (key = 7) {
-    key = 'G'
+    key = 'G';
   } else if (key = 8) {
-    key = 'G#'
+    key = 'G#';
   } else if (key = 9) {
-    key = 'A'
+    key = 'A';
   } else if (key = 10) {
-    key = 'A#'
+    key = 'A#';
   } else {
-    key = 'B'
+    key = 'B';
   }
 
     
-  $('#results').append(`<p>Tempo: ${responseJson.tempo}, <br>
-  Time signature: ${responseJson.time_signature} <br>
-  Key: ${key} <br>
-  Mode: ${mode} <br>
+  $('#results').append(`<p>
+      Tempo: ${responseJson.tempo}<br>
+      Time signature: ${responseJson.time_signature}<br>
+      Key: ${key}<br>
+      Mode: ${mode} 
   </p>`);
 }
 
