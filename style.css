@@ -129,23 +129,45 @@
       font-size: 30px;
     }
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1100px) {
     header {
       font-size: 45px;
+      left: 50%;
+    }
+    header > h3 {
+      display: none;
     }
     input {
       font-size: 30px;
     }
+    #loggedIn {
+      position: relative;
+    }
+    form {
+      position: absolute;
+      left: 0;
+    }
+  
     #results {
-      margin-bottom: 200px;
-      }
-    #results > p {
-       margin-bottom: 200px;
+      position: absolute;
+      right: 0;
+      left: 30%;
+     }
+    @media screen and (min-width: 1300px) {
+    
+    form {
+      position: absolute;
+      left: 0;
+      top: 200px;
+    }
+  
+    #results {
+      position: absolute;
+      right: 0;
+      left: 30%;
+      top: 200px;
+     }
     }
   }
-  
-  
-  
-  
   
   
