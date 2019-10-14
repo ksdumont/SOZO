@@ -3,7 +3,7 @@
 ## Link to Live App:
 https://ksdumont.github.io/SOZO/
 
-![Screenshot of SOZO](/Users/keithdumont/Desktop/Projects/SOZO/images/SOZOscreenshot.png) 
+![Screenshot of SOZO](/images/SOZOscreenshot.png) 
 
 ## Search for any song by your favorite Artist and get an audio analaysis of the track. The analysis will include the tempo, time signature, key, and mode of the track.
 
