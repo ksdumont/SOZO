@@ -46,7 +46,7 @@ function renderLoggedIn(token) {
   $('#loggedIn').show();
   console.log(token);
 }
-
+// Search Spotify for song and song id
 function fetchSong(path, params={}) {
   return fetch(`https://api.spotify.com/v1/${path}?${$.param(params)}`, {
       headers: {Authorization: `Bearer ${token}`}
@@ -62,7 +62,7 @@ function fetchSong(path, params={}) {
     })
     .catch(err => console.log(err.message))
   }
-
+// Get Audio features of track
 function fetchAudioFeatures(id) {
   return fetch(`https://api.spotify.com/v1/audio-features/${id}`, {
     headers: {Authorization: `Bearer ${token}`}
@@ -80,7 +80,7 @@ function fetchAudioFeatures(id) {
 }
 
 function showSongResults(responseJson) {
-  //$('#results').empty();
+  
   let data = responseJson.tracks.items;
   let artist = data[0].artists[0].name;
   let song = data[0].name;
@@ -106,7 +106,7 @@ function showSongResults(responseJson) {
 
   fetchAudioFeatures(id);
 } 
-
+//convert 0,1 to Minor/Major, Convert Pitch Notation
 function showAudioFeatures(responseJson) {
   let mode = responseJson.mode;
   if (mode === 1) {
