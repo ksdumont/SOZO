@@ -1,6 +1,6 @@
 # SOZO
 
-<a href = "https://ksdumont.github.io/SOZO/" target="_blank">SOZO Live</a>
+https://ksdumont.github.io/SOZO/
 
 ![Screenshot of SOZO](/images/SOZOscreenshot.png) 
 
