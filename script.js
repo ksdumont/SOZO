@@ -88,7 +88,8 @@ function showSongResults(responseJson) {
 
   for (let i = 0; i < data.length; i++) {
     for (let j = 0; j < data[i].artists.length; j++) {
-    if (data[i].artists[j].name === $('#artistSearch').val().trim()) {
+    if (data[i].artists[j].name.toLowerCase().includes(
+      $('#artistSearch').val().trim().toLowerCase())) {
       artist = data[i].artists[j].name;
       song = data[i].name;
       id = data[i].id;
@@ -116,27 +117,27 @@ function showAudioFeatures(responseJson) {
   }
 
   let key = responseJson.key;
-  if (key = 0) {
+  if (key == 0) {
     key = 'C';
-  } else if (key = 1) {
+  } else if (key == 1) {
     key = 'C#';
-  } else if (key = 2) {
+  } else if (key == 2) {
     key = 'D';
-  } else if (key = 3) {
+  } else if (key == 3) {
     key = 'D#';
-  } else if (key = 4) {
+  } else if (key == 4) {
     key = 'E';
-  } else if (key = 5) {
+  } else if (key == 5) {
     key = 'F';
-  } else if (key = 6) {
+  } else if (key == 6) {
     key = 'F#';
-  } else if (key = 7) {
+  } else if (key == 7) {
     key = 'G';
-  } else if (key = 8) {
+  } else if (key == 8) {
     key = 'G#';
-  } else if (key = 9) {
+  } else if (key == 9) {
     key = 'A';
-  } else if (key = 10) {
+  } else if (key == 10) {
     key = 'A#';
   } else {
     key = 'B';

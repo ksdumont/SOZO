@@ -18,6 +18,14 @@
   #notLoggedIn {
     text-align: center; 
     width: 80%;
+    position: relative;
+    margin: 0 auto;
+  }
+  #notLoggedIn > h3 {
+    position: relative;
+    top: 100px;
+    color: #777;
+    margin: 0 auto;
   }
   
   #loginButton {
