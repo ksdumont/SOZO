@@ -1,6 +1,5 @@
 # SOZO
 
-## Link to Live App:
 https://ksdumont.github.io/SOZO/
 
 ![Screenshot of SOZO](/images/SOZOscreenshot.png) 
