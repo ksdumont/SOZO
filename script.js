@@ -44,7 +44,6 @@ function renderNotLoggedIn() {
 
 function renderLoggedIn(token) {
   $("#loggedIn").show();
-  console.log(token);
 }
 // Search Spotify for song and song id
 function fetchSong(path, params = {}) {
@@ -58,7 +57,6 @@ function fetchSong(path, params = {}) {
       throw new Error(response.statusText);
     })
     .then(responseJson => {
-      console.log(responseJson);
       showSongResults(responseJson);
     })
     .catch(err => console.log(err.message));
@@ -75,7 +73,6 @@ function fetchAudioFeatures(id) {
       throw new Error(response.statusText);
     })
     .then(responseJson => {
-      console.log(responseJson);
       showAudioFeatures(responseJson);
     })
     .catch(err => console.log(err.message));
@@ -103,9 +100,6 @@ function showSongResults(responseJson) {
       }
     }
   }
-  console.log(artist);
-  console.log(song);
-  console.log(id);
 
   $("#results").html("");
   $("#results").append(`<h2>${song} by ${artist}</h2>`);
