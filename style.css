@@ -15,18 +15,18 @@ body {
   margin: 100px auto;
 }
 #notLoggedIn > h3 {
-  color: #6182AE;
+  color: #6182ae;
   font-size: 20px;
   margin: 10px auto;
 }
 
 #loginButton {
-  border: solid 5px #96B1D4;
+  border: solid 5px #96b1d4;
   border-radius: 50px;
   padding: 5px 20px;
   font-size: 80px;
   background-color: whitesmoke;
-  color: #96B1D4;
+  color: #96b1d4;
   margin: 10px auto;
 }
 #notLoggedIn > img {
@@ -35,8 +35,8 @@ body {
   width: 260px;
 }
 #loginButton:hover {
-  border-color: #D7E6FA;
-  color: #D7E6FA;
+  border-color: #d7e6fa;
+  color: #d7e6fa;
 }
 
 #loggedIn {
@@ -47,35 +47,35 @@ body {
   width: 80%;
 }
 header > h1 {
-  color: #6182AE;
+  color: #6182ae;
   font-size: 66px;
   margin: 10px auto;
   font-family: "Cabin", Sans-Serif;
 }
 header > h3 {
-  color: #96B1D4;
+  color: #96b1d4;
   margin: 5px auto;
   font-family: "Roboto Condensed", Sans-Serif;
 }
 
 form {
   margin: 30px auto;
-  color: #96B1D4;
+  color: #96b1d4;
 }
 
 input {
   text-align: center;
-  color: #96B1D4;
+  color: #96b1d4;
 }
 input::placeholder {
   text-align: center;
-  color: #96B1D4;
+  color: #96b1d4;
 }
 
 #songSearch,
 #artistSearch,
 #searchButton {
-  border: solid 2px #96B1D4;
+  border: solid 2px #96b1d4;
   background-color: whitesmoke;
   border-radius: 30px;
   padding: 10px 30px;
@@ -84,13 +84,13 @@ input::placeholder {
 #songSearch,
 #artistSearch {
   margin: 5px auto;
-  color: #6182AE;
+  color: #6182ae;
 }
 
 #searchButton {
   margin: 5px auto;
-  background-color: whitesmoke;
-  color: #6182AE;
+  background-color: #6182ae;
+  color: whitesmoke;
 }
 
 #searchButton:hover {
@@ -99,11 +99,11 @@ input::placeholder {
 
 #results {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   width: 80%;
-  color: #6182AE;
+  color: #6182ae;
   font-family: "Roboto Condensed", Sans-Serif;
 }
 
@@ -111,6 +111,3 @@ input::placeholder {
   margin: 10px auto;
   font-size: 18px;
 }
-
-
-
