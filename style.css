@@ -65,6 +65,11 @@ form {
 
 input {
   text-align: center;
+  color: #96B1D4;
+}
+input::placeholder {
+  text-align: center;
+  color: #96B1D4;
 }
 
 #songSearch,
@@ -79,18 +84,17 @@ input {
 #songSearch,
 #artistSearch {
   margin: 5px auto;
-  color: #96B1D4;
+  color: #6182AE;
 }
 
 #searchButton {
   margin: 5px auto;
   background-color: whitesmoke;
-  color: #96B1D4;
+  color: #6182AE;
 }
 
 #searchButton:hover {
-  border-color: #D7E6FA;
-  color: #D7E6FA;
+  background-color: antiquewhite;
 }
 
 #results {
