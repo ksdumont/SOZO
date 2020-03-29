@@ -4,7 +4,7 @@
 
 ![Screenshot of SOZO](/images/home.png) 
 
-### Search for any song on Spotify and get an audio analaysis of the track. The analysis will include the tempo, time signature, key, and mode of the track.
+### Search for any song on Spotify and get an audio analysis of the track. The analysis will include the tempo, time signature, key, and mode of the track.
 
 ![Screenshot of SOZO](/images/search.png) 
 
